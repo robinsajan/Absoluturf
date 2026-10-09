@@ -13,6 +13,7 @@ if (!API_URL) {
 // Set up Axios instance
 export const api = axios.create({
   baseURL: API_URL,
+  timeout: 20000,
   withCredentials: true, // Send cookies
 });
 
