@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment secrets — NEVER commit .env
+.env
+
+# Database files
+*.db
+*.sqlite3
+instance/
+
+# Uploaded files
+uploads/
+
+# Editor
+.vscode/
+.idea/
+*.swp

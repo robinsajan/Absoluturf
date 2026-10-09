@@ -1,0 +1,10 @@
+﻿{
+    "private":  true,
+    "devDependencies":  {
+                            "playwright":  "1.64.0"
+                        },
+    "name":  "absoluturf-browser-qa",
+    "scripts":  {
+                    "test":  "node browser.cjs"
+                }
+}

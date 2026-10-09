@@ -1,0 +1,33 @@
+# Local credentials (keep shareable templates)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and generated output
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.next/
+out/
+coverage/
+*.tsbuildinfo
+*.log
+
+# Local databases and uploaded user content
+*.db
+*.db-*
+*.sqlite*
+backend/instance/
+backend/uploads/
+
+# Local agent installations and editor state
+.agents/
+.opencode/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
