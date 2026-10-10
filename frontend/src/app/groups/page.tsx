@@ -604,15 +604,16 @@ function GroupsContent() {
 
       {/* Search Bar */}
       <div className="relative">
-        <span className="absolute inset-y-0 left-0 flex items-center pl-4 text-[var(--text-muted)]">
+        <span aria-hidden="true" className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-[var(--text-muted)]">
           <Search size={16} />
         </span>
         <input
           type="text"
           placeholder="Search groups..."
+          aria-label="Search groups"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="input"
+          className="input input-with-icon"
         />
       </div>
 
